@@ -20,7 +20,7 @@ public class Jpah2Application {
 		SpringApplication.run(Jpah2Application.class, args);
 	}
 	
-	//@Bean
+	@Bean
 	  public CommandLineRunner demo(CustomerRepository repository) {
 	    return (args) -> {
 	    	
